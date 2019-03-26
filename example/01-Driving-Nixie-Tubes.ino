@@ -4,8 +4,7 @@
 // Driving Nixie Tubes Example
 // 
 // This example demonstrates how to display digits on nixie tubes. Settings are sent via a serial monitor.
-// The control is carried out using two HV5812 drivers: 
-// https://github.com/marcinsaj/Nixie-Clock-Thermometer-Hygrometer-Arduino-Shield/blob/master/datasheet/HV5812.pdf  
+// The control is carried out using two HV5812 drivers: http://ww1.microchip.com/downloads/en/DeviceDoc/20005629A.pdf 
 // The HV5812 is a 20-channel serial-input display driver. It combines a 20-bit CMOS shift register, 
 // data latches and control circuitry with high-voltage MOSFET outputs.
 //
