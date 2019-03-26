@@ -64,7 +64,7 @@ unsigned long previous_millis = 0;
 
 void setup() 
 {  
-    Serial.begin(115200);
+    Serial.begin(9600);
 
     // Initialize connected pins as an output
     pinMode(EN, OUTPUT);              
@@ -116,8 +116,7 @@ void setup()
     Serial.read();
 
     // Turn on NPS - Nixie Power Supply Module
-    digitalWrite(EN, LOW);
-  
+    digitalWrite(EN, LOW);  
 }
 
 void loop() 
@@ -214,8 +213,7 @@ void DisplayTime()
     // Turn on the outputs
     digitalWrite(STR, HIGH);
     delay (1);
-    digitalWrite(STR, LOW);  
-  
+    digitalWrite(STR, LOW);    
 }
 
 void PrintTime()
@@ -228,8 +226,7 @@ void PrintTime()
     Serial.print(minute(t));  
     Serial.print(":");
     if(second(t) < 10) Serial.print("0");
-    Serial.println(second(t));  
-    
+    Serial.println(second(t));      
 }
 
 void BlinkDot()
