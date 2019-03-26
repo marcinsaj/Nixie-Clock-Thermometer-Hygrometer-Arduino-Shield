@@ -48,34 +48,33 @@ int digit1, digit2, digit3, digit4;
 
 
 
-void setup() {
-  
-  Serial.begin(9600);
+void setup() 
+{  
+    Serial.begin(9600);
 
-  // Initialize connected pins as an output
-  pinMode(EN, OUTPUT);              
-  digitalWrite(EN, HIGH);     // Turn off NPS - Nixie Power Supply Module
+    // Initialize connected pins as an output
+    pinMode(EN, OUTPUT);              
+    digitalWrite(EN, HIGH);     // Turn off NPS - Nixie Power Supply Module
   
-  pinMode(CLK, OUTPUT);       // Nixie driver data shift register clock input 
-  digitalWrite(CLK, LOW);
+    pinMode(CLK, OUTPUT);       // Nixie driver data shift register clock input 
+    digitalWrite(CLK, LOW);
   
-  pinMode(DIN, OUTPUT);       // Nixie driver serial data input 
-  digitalWrite(DIN, LOW);             
+    pinMode(DIN, OUTPUT);       // Nixie driver serial data input 
+    digitalWrite(DIN, LOW);             
   
-  pinMode(STR, OUTPUT);       // Nixie driver output enable input
-  digitalWrite(STR, LOW);
+    pinMode(STR, OUTPUT);       // Nixie driver output enable input
+    digitalWrite(STR, LOW);
   
-  pinMode(DOT, OUTPUT);       // Nixie tube dot
-  digitalWrite(DOT, HIGH);    // Turn on nixie dot
+    pinMode(DOT, OUTPUT);       // Nixie tube dot
+    digitalWrite(DOT, HIGH);    // Turn on nixie dot
   
-  while (! Serial);           // Wait until Serial is ready
+    delay(3000);
   
-  digitalWrite(EN, LOW);      // Turn on NPS - Nixie Power Supply Module
-  
+    digitalWrite(EN, LOW);      // Turn on NPS - Nixie Power Supply Module
 }
 
-void loop() {
-
+void loop() 
+{
     Serial.print("Enter a number from range 0-9999: ");
     
     // Wait for the number
@@ -102,13 +101,11 @@ void loop() {
     digit4 = nixie4[digit4];
 
     // Display on nixie tubes
-    NixieDisplay();            
-  
+    NixieDisplay();              
 }
 
 void NixieDisplay()
 {
-
     // Clear bit array
     for (int i = 39; i >= 0; i--)
     {
@@ -134,7 +131,5 @@ void NixieDisplay()
     // Turn on the outputs
     digitalWrite(STR, HIGH);
     delay (1);
-    digitalWrite(STR, LOW);  
-  
+    digitalWrite(STR, LOW);    
 }
-
