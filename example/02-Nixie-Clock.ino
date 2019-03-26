@@ -62,7 +62,6 @@ int nixie4[]={11, 12, 13, 14, 15, 16, 17, 18, 19, 10};
 unsigned long previous_millis = 0;
 
 
-
 void setup() 
 {  
     Serial.begin(115200);
@@ -218,7 +217,6 @@ void DisplayTime()
     digitalWrite(STR, LOW);  
   
 }
-
 
 void PrintTime()
 {
