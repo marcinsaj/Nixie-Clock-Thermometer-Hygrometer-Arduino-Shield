@@ -84,8 +84,8 @@ void setup()
 
     Serial.println("#############################################################");
     Serial.println("----- Nixie Clock Thermometer Hygrometer Arduino Shield -----");
-    Serial.println("----------- If you want to set new Time, type '1' -----------"); 
-    Serial.println("------------- and press enter within 5 seconds --------------");
+    Serial.println("---------------- If you want to set new Time ----------------");
+    Serial.println("--------------- press ENTER within 5 seconds ----------------");
 
     // Millis time start
     unsigned long millis_time_now = millis();
@@ -146,7 +146,7 @@ void loop()
 
 void SetNewTime()
 {  
-    Serial.println("------ Enter the time without spaces in the HHMM format ------");
+    Serial.println("------ Enter the TIME without spaces in the HHMM format ------");
     Serial.println("- and press enter when you are ready to send data to the RTC -");
     Serial.println('\n');
 
