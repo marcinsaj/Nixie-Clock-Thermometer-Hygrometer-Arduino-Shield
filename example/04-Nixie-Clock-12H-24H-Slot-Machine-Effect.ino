@@ -187,10 +187,9 @@ void DisplayTime()
     
     int timeFormat = HH;
     // Check time format and if it is 12 hour then set proper time
-    if(timeFormat == 12 && timeHour > 12) 
-    {
-        timeHour = timeHour - 12;
-    }
+    if(timeFormat == 12 && timeHour > 12) timeHour = timeHour - 12;
+    if(timeFormat == 12 && timeHour == 0) timeHour = 12;
+
    
     // Print time on serial monitor
     PrintTime();
