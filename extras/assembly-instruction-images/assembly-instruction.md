@@ -23,7 +23,7 @@
   - Screws: 4 x M2.5-15mm
   - Screws: 4 x M2.5-8mm
 ----
-### Nixie Shield Mainboard PCB
+### Assembly Instruction
 ----
 <p align="center"><img src="https://github.com/marcinsaj/Nixie-Clock-Thermometer-Hygrometer-Arduino-Shield/blob/master/extras/assembly-instruction-images/nixie-shield-assembly-instruction_01.jpg"></p>
 
@@ -89,11 +89,19 @@
 
 <p align="center"><img src="https://github.com/marcinsaj/Nixie-Clock-Thermometer-Hygrometer-Arduino-Shield/blob/master/extras/assembly-instruction-images/nixie-shield-assembly-instruction_18.jpg"></p>
 
+----
+### The notch marked in red should be on the top right
+----
+
 <p align="center"><img src="https://github.com/marcinsaj/Nixie-Clock-Thermometer-Hygrometer-Arduino-Shield/blob/master/extras/assembly-instruction-images/nixie-shield-assembly-instruction_19.jpg"></p>
 
 <p align="center"><img src="https://github.com/marcinsaj/Nixie-Clock-Thermometer-Hygrometer-Arduino-Shield/blob/master/extras/assembly-instruction-images/nixie-shield-assembly-instruction_20.jpg"></p>
 
 <p align="center"><img src="https://github.com/marcinsaj/Nixie-Clock-Thermometer-Hygrometer-Arduino-Shield/blob/master/extras/assembly-instruction-images/nixie-shield-assembly-instruction_21.jpg"></p>
+
+----
+### Housing assembly
+----
 
 <p align="center"><img src="https://github.com/marcinsaj/Nixie-Clock-Thermometer-Hygrometer-Arduino-Shield/blob/master/extras/assembly-instruction-images/nixie-shield-assembly-instruction_22.jpg"></p>
 
