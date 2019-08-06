@@ -6,14 +6,14 @@
 - Temperature and humidity sensor DHT22/AM2302 - [datasheet]https://github.com/marcinsaj/Nixie-Clock-Thermometer-Hygrometer-Arduino-Shield/blob/master/datasheet/DHT22.pdf).
 - Housing.
 - Other components
--- Spacers: 4 x M3-18mm F-F
--- Spacers: 2 x M2.5-18mm M-F
--- Spacers: 2 x M2.5-30mm F-F
--- Spacers: 2 x M2.5-10mm F-F
--- Screws: 8 x M3-8mm
--- Screws: 4 x M2.5-15mm
--- Screws: 4 x M2.5-8mm
--- 
+  - Spacers: 4 x M3-18mm F-F
+  - Spacers: 2 x M2.5-18mm M-F
+  - Spacers: 2 x M2.5-30mm F-F
+  - Spacers: 2 x M2.5-10mm F-F
+  - Screws: 8 x M3-8mm
+  - Screws: 4 x M2.5-15mm
+  - Screws: 4 x M2.5-8mm
+  - 
 
 
 <p align="center"><img src="https://github.com/marcinsaj/Nixie-Clock-Thermometer-Hygrometer-Arduino-Shield/blob/master/extras/assembly-instruction-images/nixie-shield-assembly-instruction_01.jpg"></p>
