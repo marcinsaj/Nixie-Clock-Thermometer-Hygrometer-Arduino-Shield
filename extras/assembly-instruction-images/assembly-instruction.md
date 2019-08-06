@@ -1,4 +1,10 @@
-# Nixie Clock Thermometer Hygrometer Arduino Shield
+# Assembly Instruction - Nixie Clock Thermometer Hygrometer Arduino Shield
+### Components
+- Nixie shield mainboard pcb - [schematic](https://github.com/marcinsaj/Nixie-Clock-Thermometer-Hygrometer-Arduino-Shield/blob/master/datasheet/Schematic-Nixie-Clock-Thermometer-Hygrometer-Arduino-Shield.pdf).
+- Nixie power supply module (12V => 170V) - [schematic](https://github.com/marcinsaj/Nixie-Clock-Thermometer-Hygrometer-Arduino-Shield/blob/master/datasheet/Schematic-Nixie-Module-Power-Supply.pdf).
+- Real time clock module - DS3231.
+- Temperature and humidity sensor - DHT22/AM2302
+
 
 <p align="center"><img src="https://github.com/marcinsaj/Nixie-Clock-Thermometer-Hygrometer-Arduino-Shield/blob/master/extras/assembly-instruction-images/nixie-shield-assembly-instruction_01.jpg"></p>
 
