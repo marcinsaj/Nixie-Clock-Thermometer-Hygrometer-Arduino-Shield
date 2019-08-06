@@ -22,16 +22,16 @@
   - Screws: 8 x M3-8mm
   - Screws: 4 x M2.5-15mm
   - Screws: 4 x M2.5-8mm
-
+----
 ### Nixie Shield Mainboard PCB
-
+----
 <p align="center"><img src="https://github.com/marcinsaj/Nixie-Clock-Thermometer-Hygrometer-Arduino-Shield/blob/master/extras/assembly-instruction-images/nixie-shield-assembly-instruction_01.jpg"></p>
 
 <p align="center"><img src="https://github.com/marcinsaj/Nixie-Clock-Thermometer-Hygrometer-Arduino-Shield/blob/master/extras/assembly-instruction-images/nixie-shield-assembly-instruction_02.jpg"></p>
-
+----
 ### PH1 - pin header 1 x 3F 8.5mm
 ### PH4 - pin header 1 x 4F 8.5mm
-
+----
 <p align="center"><img src="https://github.com/marcinsaj/Nixie-Clock-Thermometer-Hygrometer-Arduino-Shield/blob/master/extras/assembly-instruction-images/nixie-shield-assembly-instruction_03.jpg"></p>
 
 <p align="center"><img src="https://github.com/marcinsaj/Nixie-Clock-Thermometer-Hygrometer-Arduino-Shield/blob/master/extras/assembly-instruction-images/nixie-shield-assembly-instruction_04.jpg"></p>
