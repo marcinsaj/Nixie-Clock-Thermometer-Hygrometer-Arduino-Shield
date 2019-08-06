@@ -44,12 +44,22 @@
 <p align="center"><img src="https://github.com/marcinsaj/Nixie-Clock-Thermometer-Hygrometer-Arduino-Shield/blob/master/extras/assembly-instruction-images/nixie-shield-assembly-instruction_06.jpg"></p>
 
 ----
-### PH5 - pin header 1 x 5M 8.5mm
+### PH5 - pin header 1 x 5M 8.5mm (RTC)
 ----
 
 <p align="center"><img src="https://github.com/marcinsaj/Nixie-Clock-Thermometer-Hygrometer-Arduino-Shield/blob/master/extras/assembly-instruction-images/nixie-shield-assembly-instruction_07.jpg"></p>
 
 <p align="center"><img src="https://github.com/marcinsaj/Nixie-Clock-Thermometer-Hygrometer-Arduino-Shield/blob/master/extras/assembly-instruction-images/nixie-shield-assembly-instruction_08.jpg"></p>
+
+----
+### PH2 - pin header 1 x 6M 15mm (Arduino)
+
+### PH3 - pin header 1 x 8M 15mm (Arduino)
+
+### PH6 - pin header 1 x 8M 15mm (Arduino)
+
+### PH7 - pin header 1 x 12M 15mm (Arduino)
+----
 
 <p align="center"><img src="https://github.com/marcinsaj/Nixie-Clock-Thermometer-Hygrometer-Arduino-Shield/blob/master/extras/assembly-instruction-images/nixie-shield-assembly-instruction_09.jpg"></p>
 
@@ -57,11 +67,19 @@
 
 <p align="center"><img src="https://github.com/marcinsaj/Nixie-Clock-Thermometer-Hygrometer-Arduino-Shield/blob/master/extras/assembly-instruction-images/nixie-shield-assembly-instruction_11.jpg"></p>
 
+----
+### CON1 (sensor connector)
+----
+
 <p align="center"><img src="https://github.com/marcinsaj/Nixie-Clock-Thermometer-Hygrometer-Arduino-Shield/blob/master/extras/assembly-instruction-images/nixie-shield-assembly-instruction_12.jpg"></p>
 
 <p align="center"><img src="https://github.com/marcinsaj/Nixie-Clock-Thermometer-Hygrometer-Arduino-Shield/blob/master/extras/assembly-instruction-images/nixie-shield-assembly-instruction_13.jpg"></p>
 
 <p align="center"><img src="https://github.com/marcinsaj/Nixie-Clock-Thermometer-Hygrometer-Arduino-Shield/blob/master/extras/assembly-instruction-images/nixie-shield-assembly-instruction_14.jpg"></p>
+
+----
+### Nixie tubes socket pins assembly
+----
 
 <p align="center"><img src="https://github.com/marcinsaj/Nixie-Clock-Thermometer-Hygrometer-Arduino-Shield/blob/master/extras/assembly-instruction-images/nixie-shield-assembly-instruction_15.jpg"></p>
 
