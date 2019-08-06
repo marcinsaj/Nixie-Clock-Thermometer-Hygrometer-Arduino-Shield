@@ -3,7 +3,7 @@
 - Nixie shield mainboard pcb - [schematic](https://github.com/marcinsaj/Nixie-Clock-Thermometer-Hygrometer-Arduino-Shield/blob/master/datasheet/Schematic-Nixie-Clock-Thermometer-Hygrometer-Arduino-Shield.pdf)
 - Nixie power supply module (12V => 170V) - [schematic](https://github.com/marcinsaj/Nixie-Clock-Thermometer-Hygrometer-Arduino-Shield/blob/master/datasheet/Schematic-Nixie-Module-Power-Supply.pdf)
 - Real time clock module DS3231 - [datasheet](https://github.com/marcinsaj/Nixie-Clock-Thermometer-Hygrometer-Arduino-Shield/blob/master/datasheet/DS3231.pdf)
-- Temperature and humidity sensor DHT22/AM2302 - [datasheet]https://github.com/marcinsaj/Nixie-Clock-Thermometer-Hygrometer-Arduino-Shield/blob/master/datasheet/DHT22.pdf)
+- Temperature and humidity sensor DHT22/AM2302 - [datasheet](https://github.com/marcinsaj/Nixie-Clock-Thermometer-Hygrometer-Arduino-Shield/blob/master/datasheet/DHT22.pdf)
 - Housing
 - Other components:
   - Nixie tubes socket pins - 48pcs
