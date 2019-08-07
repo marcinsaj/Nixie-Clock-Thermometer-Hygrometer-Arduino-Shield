@@ -115,7 +115,8 @@ void setup()
     while(Serial.available())
     Serial.read();
 
-    ClearDisplay();
+    // Turn on NPS - Nixie Power Supply Module
+    digitalWrite(EN, LOW);   
 }
 
 void loop() 
@@ -142,21 +143,6 @@ void loop()
         DisplayTime();
     }
 }
-
-void ClearDisplay()
-{
-    // Clear bit array
-    for (int i = 39; i >= 0; i--)
-    {
-        nixieDisplayArray[i] = 1;      
-    }
-
-    SendDataToDisplay();
-    
-    // Turn on NPS - Nixie Power Supply Module
-    digitalWrite(EN, LOW);   
-}
-
 
 void SetNewTime()
 {  
@@ -214,11 +200,6 @@ void DisplayTime()
     nixieDisplayArray[digit3] = 0;
     nixieDisplayArray[digit4] = 0; 
 
-    SendDataToDisplay();  
-}
-
-void SendDataToDisplay()
-{
     // Send bit array to the nixie drivers 
     for (int i = 39; i >= 0; i--)
     {
@@ -232,7 +213,7 @@ void SendDataToDisplay()
     // Turn on the outputs
     digitalWrite(STR, HIGH);
     delay (1);
-    digitalWrite(STR, LOW);    
+    digitalWrite(STR, LOW);   
 }
 
 void PrintTime()
