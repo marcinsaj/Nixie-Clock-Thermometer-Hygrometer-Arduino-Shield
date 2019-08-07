@@ -21,6 +21,7 @@
 // RTC SCL   connected to Arduino pin SCL
 
 #include <DS3232RTC.h>  // https://github.com/JChristensen/DS3232RTC
+// Also install the Time library if needed: https://github.com/PaulStoffregen/Time 
           
 #define EN    A2        // Nixie Power Supply Module: "0" - ON, "1" - OFF                  
 #define DIN   12        // HV5812 serial data input             
