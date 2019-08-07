@@ -110,8 +110,6 @@ void loop()
     humDHT = dht.readHumidity();
     // Read temperature as Celsius (the default)
     tempDHT = dht.readTemperature();
-    // Read temperature as Fahrenheit (isFahrenheit = true)
-    float f = dht.readTemperature(true);
 
     // Check if any reads failed and exit early (to try again).
     if (isnan(humDHT) || isnan(tempDHT)) 
