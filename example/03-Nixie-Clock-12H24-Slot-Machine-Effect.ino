@@ -23,6 +23,7 @@
 // RTC SCL   connected to Arduino pin SCL
 
 #include <DS3232RTC.h>  // https://github.com/JChristensen/DS3232RTC
+                        // Also install the Time library if needed: https://github.com/PaulStoffregen/Time 
 
 // Choose Time Format
 #define HH    12        // 12 Hour Clock or 24 Hour Clock
