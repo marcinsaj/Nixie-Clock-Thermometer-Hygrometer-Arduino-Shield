@@ -69,8 +69,6 @@ void setup()
     digitalWrite(DOT, HIGH);    // Turn on nixie dot
   
     delay(3000);
-  
-    digitalWrite(EN, LOW);      // Turn on NPS - Nixie Power Supply Module
 }
 
 void loop() 
@@ -131,5 +129,7 @@ void NixieDisplay()
     // Turn on the outputs
     digitalWrite(STR, HIGH);
     delay (1);
-    digitalWrite(STR, LOW);    
+    digitalWrite(STR, LOW); 
+   
+    digitalWrite(EN, LOW);      // Turn on NPS - Nixie Power Supply Module      
 }
