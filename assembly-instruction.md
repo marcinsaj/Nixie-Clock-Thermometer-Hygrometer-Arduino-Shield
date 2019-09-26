@@ -22,6 +22,16 @@
   - Screws: 8 x M3-8mm
   - Screws: 4 x M2.5-15mm
   - Screws: 4 x M2.5-8mm
+
+
+----
+### Temperature and humidity sensor DHT22/AM2302
+----
+
+<p align="center"><img src="https://github.com/marcinsaj/Nixie-Clock-Thermometer-Hygrometer-Arduino-Shield/blob/master/extras/assembly-instruction-images/nixie-shield-assembly-instruction_55.jpg"></p>
+
+<p align="center"><img src="https://github.com/marcinsaj/Nixie-Clock-Thermometer-Hygrometer-Arduino-Shield/blob/master/extras/assembly-instruction-images/nixie-shield-assembly-instruction_53.jpg"></p>
+
 ----
 ### Assembly Instruction
 ----
@@ -218,14 +228,5 @@
 <p align="center"><img src="https://github.com/marcinsaj/Nixie-Clock-Thermometer-Hygrometer-Arduino-Shield/blob/master/extras/assembly-instruction-images/nixie-shield-assembly-instruction_52.jpg"></p>
 
 <p align="center"><img src="https://github.com/marcinsaj/Nixie-Clock-Thermometer-Hygrometer-Arduino-Shield/blob/master/extras/assembly-instruction-images/nixie-shield-assembly-instruction_54.jpg"></p>
-
-----
-### Temperature and humidity sensor DHT22/AM2302
-----
-
-<p align="center"><img src="https://github.com/marcinsaj/Nixie-Clock-Thermometer-Hygrometer-Arduino-Shield/blob/master/extras/assembly-instruction-images/nixie-shield-assembly-instruction_55.jpg"></p>
-
-<p align="center"><img src="https://github.com/marcinsaj/Nixie-Clock-Thermometer-Hygrometer-Arduino-Shield/blob/master/extras/assembly-instruction-images/nixie-shield-assembly-instruction_53.jpg"></p>
-
 
 
