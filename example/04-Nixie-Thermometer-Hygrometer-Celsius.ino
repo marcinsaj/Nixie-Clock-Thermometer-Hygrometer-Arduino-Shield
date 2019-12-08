@@ -118,8 +118,8 @@ void loop()
         return;
     }
 
-    // Compute heat index in Celsius
-    float hic = dht.computeHeatIndex(tempDHT, humDHT);
+    // Compute heat index in Celsius (isFahreheit = false)
+    tempDHT = dht.computeHeatIndex(tempDHT, humDHT, false);
 
     
     // Change display values between temperature and humidity every 10 seconds
